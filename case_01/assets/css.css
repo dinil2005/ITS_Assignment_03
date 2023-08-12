@@ -1,0 +1,142 @@
+div{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+
+}
+
+body>div:nth-child(1){
+    background-color: red;
+}
+body>div:nth-child(2){
+    background-color: blue;
+    left: 50%;
+}
+body>div:nth-child(3){
+    background-color:green;
+    top: 50%;
+}
+body>div:nth-child(4){
+    background-color: purple;
+    left: 50%;
+    top: 50%;
+}
+
+body>div:nth-child(5){
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+body>div:nth-child(6){
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+body>div:nth-child(7){
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    left: 0;
+    right: 0;
+    top: calc(-6vw/2);
+    margin: auto;
+
+
+}
+
+body>div:nth-child(8){
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    left: 0;
+    right: 0;
+    bottom:calc(-6vw/2);
+    margin: auto;
+
+
+}
+body>div:nth-child(9){
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    top: calc(-5vw/2);
+    right: calc(-5vw/2);
+
+
+}
+
+body>div:nth-child(10){
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    top: calc(-5vw/2);
+    left: calc(-5vw/2);
+
+
+}
+
+body>div:nth-child(11){
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    bottom: calc(-5vw/2);
+    left: calc(-5vw/2);
+
+
+}
+body>div:nth-child(12){
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    bottom: calc(-5vw/2);
+    right: calc(-5vw/2);
+
+
+}
+
+
+
+
+body>div>div{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 150px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+body>div>div>div{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
