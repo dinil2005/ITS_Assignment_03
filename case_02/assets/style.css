@@ -18,9 +18,19 @@ img{
 nav>li{
     list-style: none;
     display: inline;
+    font-weight: bold;
     position: absolute;
-
 }
+div>li{
+    list-style: none;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    margin: 17px;
+    left: 23px;
+    top: 30px;
+}
+
 nav>li:nth-child(4){
     right: 14px;
     bottom: 18px;
@@ -44,7 +54,7 @@ nav>li:first-child{
 
 body>div{
     height: calc(100% - 50px);
-    width: 25%;
+    width: 18%;
     background-color: red;
     position: absolute;
 }
