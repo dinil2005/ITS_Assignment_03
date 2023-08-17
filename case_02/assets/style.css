@@ -42,13 +42,11 @@ nav>li:first-child{
     margin: auto;
 }
 
-
-body>div {
-    width: 25%;
-    height: 50%;
+body>div{
+    height: calc(100% - 50px);
+    width: 35%;
     background-color: red;
-    position: relative;
-    bottom: 18px;
+    position: absolute;
 }
 
 
