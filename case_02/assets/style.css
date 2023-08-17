@@ -59,6 +59,37 @@ body>div{
     position: absolute;
 }
 
+section{
+    position: relative;
+}
+
+section>div {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+}
+
+section>div:first-child{
+    top: 10px;
+    right: 100px;
+}
+section>div:nth-child(2){
+    top: 10px;
+    right: 450px;
+}
+section>div:nth-child(3){
+    top: 10px;
+    right: 800px;
+}
+
+
+
+
+
+
+
 
 
 
